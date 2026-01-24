@@ -37,26 +37,29 @@ Console / CLI based interface
 
 💾 Project Structure
 
+### 📂 Project Structure
+
+```text
 ExpenseTracker/
 │
 ├── app/
-│   ├── main.py              # Entry point
-│   ├── expenseTracker.py    # Menu & app flow control
-│   ├── user.py              # User class & user actions
-│   ├── services.py          # Business logic / connectors
-│   └── config.py            # Configuration
+│   ├── config.py          # Configuration
+│   ├── expenseTracker.py  # Menu & app flow control
+│   ├── main.py            # Entry point
+│   ├── services.py        # Business logic / connectors
+│   └── user.py            # User class & user actions
 │
 ├── db/
-│   ├── db.py                # MongoDB connection
-│   ├── userDB.py            # User-related DB operations
-│   └── expenseDB.py         # Expense-related DB operations
+│   ├── db.py              # MongoDB connection
+│   ├── expenseDB.py       # Expense-related DB operations
+│   └── userDB.py          # User-related DB operations
 │
 ├── utils/
-│   └── utils.py             # Validation & helper functions
+│   ├── test.py
+│   └── utils.py           # Validation & helper functions
 │
-├── .env                     # Environment variables
-└── README.md
-
+├── .env                   # Environment variables
+└── note.txt
 
 ▶️ How to Run the Project
 1️⃣ Prerequisites
