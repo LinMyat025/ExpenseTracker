@@ -35,7 +35,8 @@ PyMongo
 
 Console / CLI based interface
 
-📂 Project Structure
+💾 Project Structure
+
 ExpenseTracker/
 │
 ├── app/
@@ -55,6 +56,7 @@ ExpenseTracker/
 │
 ├── .env                     # Environment variables
 └── README.md
+
 
 ▶️ How to Run the Project
 1️⃣ Prerequisites
